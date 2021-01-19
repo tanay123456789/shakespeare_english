@@ -1,15 +1,74 @@
-textarea{
-    width:90%;
-    height:10vh;
+
+/*We will input our text here*/
+
+@media only screen and (max-width: 599px){
+    #txt-input{
+        width:80%;
+        height:10vh;
+        display:block;
+        /*margin:1rem;*/
+        margin-left:auto;
+        margin-right: auto;
+        font:100px;
+    
+    }
+
+}
+@media only screen and (min-width: 600px) {
+    #txt-input{
+        width:90%;
+        height:10vh;
+        display:block;
+        /*margin:1rem;*/
+        margin-left:auto;
+        margin-right: auto;
+        font:10px;
+
+    }
+}
+/*Transalate button **/
+#btn-transalate{
     display:block;
-    margin:1rem;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
+
+/*Shakespeare's image*/
+
+@media only screen and (min-width: 600px) {
+    #image{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 10%;
+        height: 100px;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    #image{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+        height: 80px;
+    }
+}
+
+/*output display*/
 #output{
+    display: block;
     border:1px solid black;
     height:10vh;
     width:80%;
+    text-decoration: whitesmoke;
     margin:1rem;
     padding:1rem;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+
+
